@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
+8-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
+9-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
 10
 11    <!-- Include required permissions for Google Mobile Ads to run -->
 12    <uses-permission android:name="android.permission.INTERNET" />
@@ -54,65 +54,65 @@
 33-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:27:22-78
 34
 35    <application
-35-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:5:5-35:19
+35-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:5:5-35:19
 36        android:allowBackup="true"
-36-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:6:9-35
+36-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:6:9-35
 37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 37-->[androidx.core:core:1.5.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
 38        android:debuggable="true"
 39        android:extractNativeLibs="false"
 40        android:icon="@mipmap/ic_launcher"
-40-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:7:9-43
+40-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:7:9-43
 41        android:label="@string/app_name"
-41-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:8:9-41
+41-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:8:9-41
 42        android:roundIcon="@mipmap/ic_launcher_round"
-42-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:9:9-54
+42-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:9:9-54
 43        android:supportsRtl="true"
-43-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:10:9-35
+43-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:10:9-35
 44        android:testOnly="true"
 45        android:theme="@style/Theme.TagTarget20" >
-45-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:11:9-49
+45-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:11:9-49
 46        <activity
-46-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:12:9-20:20
+46-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:12:9-20:20
 47            android:name="ml.androdevs.TagTarget.Activities.MainActivity"
-47-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:12:19-58
+47-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:12:19-58
 48            android:exported="true"
-48-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:13:13-36
+48-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:13:13-36
 49            android:theme="@style/Theme.TagTarget20" >
-49-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:14:13-53
+49-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:14:13-53
 50            <intent-filter>
-50-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:15:13-19:29
+50-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:15:13-19:29
 51                <action android:name="android.intent.action.MAIN" />
-51-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:16:17-69
-51-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:16:25-66
+51-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:16:17-69
+51-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:16:25-66
 52
 53                <category android:name="android.intent.category.LAUNCHER" />
-53-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:18:17-77
-53-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:18:27-74
+53-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:18:17-77
+53-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:18:27-74
 54            </intent-filter>
 55        </activity>
 56        <activity
-56-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:21:9-27:20
+56-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:21:9-27:20
 57            android:name="ml.androdevs.TagTarget.Activities.TodoNoteActivity"
-57-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:23:13-56
+57-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:23:13-56
 58            android:exported="true"
-58-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:22:13-36
+58-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:22:13-36
 59            android:label="@string/title_activity_todo_note"
-59-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:24:13-61
+59-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:24:13-61
 60            android:theme="@style/Theme.MaterialComponents.NoActionBar" >
-60-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:25:13-72
+60-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:25:13-72
 61        </activity>
 62
 63        <receiver android:name="ml.androdevs.TagTarget.Model.AlarmReciever" />
-63-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:29:9-56
-63-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:29:19-54
+63-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:29:9-56
+63-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:29:19-54
 64
 65        <meta-data
-65-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:31:9-33:69
+65-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:31:9-33:69
 66            android:name="com.google.android.gms.ads.APPLICATION_ID"
-66-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:32:13-69
+66-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:32:13-69
 67            android:value="ca-app-pub-3940256099942544~3347511713" />
-67-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:33:13-67
+67-->D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:33:13-67
 68
 69        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
 70        <activity

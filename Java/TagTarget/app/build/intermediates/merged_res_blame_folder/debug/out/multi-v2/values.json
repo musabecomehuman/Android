@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidStudioProjects\\TagTarget20\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\AndroidStudioProjects\\TagTarget\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Musa\\.gradle\\caches\\transforms-2\\files-2.1\\b7d2f2cb826e61f51c0423cb9d36bac8\\pulsator4droid-1.0.3\\res\\values\\values.xml",
@@ -75,25 +75,6 @@
                         "endLines": "86,7915,9982,10071",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "4506,537452,643245,648456"
-                    }
-                },
-                {
-                    "source": "D:\\AndroidStudioProjects\\TagTarget20\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "21,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "1088,143",
-                        "endLines": "25,19",
-                        "endColumns": "12,12",
-                        "endOffsets": "1320,1080"
-                    },
-                    "to": {
-                        "startLines": "4770,5722",
-                        "startColumns": "4,4",
-                        "startOffsets": "325496,392494",
-                        "endLines": "4774,5738",
-                        "endColumns": "12,12",
-                        "endOffsets": "325724,393413"
                     }
                 },
                 {
@@ -190,40 +171,6 @@
                     }
                 },
                 {
-                    "source": "D:\\AndroidStudioProjects\\TagTarget20\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,11,9,10,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "293,479,379,427,57,105,153,201,247,336",
-                        "endColumns": "41,45,46,50,46,46,46,44,44,41",
-                        "endOffsets": "330,520,421,473,99,147,195,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "584,601,602,603,809,810,811,822,823,827",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "29791,30972,31018,31065,45838,45885,45932,46676,46721,46929",
-                        "endColumns": "41,45,46,50,46,46,46,44,44,41",
-                        "endOffsets": "29828,31013,31060,31111,45880,45927,45974,46716,46761,46966"
-                    }
-                },
-                {
-                    "source": "D:\\AndroidStudioProjects\\TagTarget20\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "17,68",
-                        "endColumns": "49,69",
-                        "endOffsets": "62,133"
-                    },
-                    "to": {
-                        "startLines": "1601,1727",
-                        "startColumns": "4,4",
-                        "startOffsets": "97565,114292",
-                        "endColumns": "49,69",
-                        "endOffsets": "97610,114357"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Musa\\.gradle\\caches\\transforms-2\\files-2.1\\a399a688ecf8a052882d528245a4db8b\\lifecycle-runtime-2.5.0-alpha02\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -298,6 +245,25 @@
                     }
                 },
                 {
+                    "source": "D:\\AndroidStudioProjects\\TagTarget\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "21,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "1088,143",
+                        "endLines": "25,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "1320,1080"
+                    },
+                    "to": {
+                        "startLines": "4770,5722",
+                        "startColumns": "4,4",
+                        "startOffsets": "325496,392494",
+                        "endLines": "4774,5738",
+                        "endColumns": "12,12",
+                        "endOffsets": "325724,393413"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Musa\\.gradle\\caches\\transforms-2\\files-2.1\\c8925b41f4a20a47760feaff8220048e\\recyclerview-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -334,6 +300,23 @@
                     }
                 },
                 {
+                    "source": "D:\\AndroidStudioProjects\\TagTarget\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,11,9,10,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "293,479,379,427,57,105,153,201,247,336",
+                        "endColumns": "41,45,46,50,46,46,46,44,44,41",
+                        "endOffsets": "330,520,421,473,99,147,195,241,287,373"
+                    },
+                    "to": {
+                        "startLines": "584,601,602,603,809,810,811,822,823,827",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "29791,30972,31018,31065,45838,45885,45932,46676,46721,46929",
+                        "endColumns": "41,45,46,50,46,46,46,44,44,41",
+                        "endOffsets": "29828,31013,31060,31111,45880,45927,45974,46716,46761,46966"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Musa\\.gradle\\caches\\transforms-2\\files-2.1\\076e4cb7a2c1a2cdd1248a661938071e\\browser-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
@@ -365,6 +348,23 @@
                         "startOffsets": "97482",
                         "endColumns": "82",
                         "endOffsets": "97560"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidStudioProjects\\TagTarget\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "17,68",
+                        "endColumns": "49,69",
+                        "endOffsets": "62,133"
+                    },
+                    "to": {
+                        "startLines": "1601,1727",
+                        "startColumns": "4,4",
+                        "startOffsets": "97565,114292",
+                        "endColumns": "49,69",
+                        "endOffsets": "97610,114357"
                     }
                 },
                 {

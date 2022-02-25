@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\947a71c6d3280253a2aa382ca3d9c53f\viewbinding-4.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [pl.bclogic:pulsator4droid:1.0.3] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\b7d2f2cb826e61f51c0423cb9d36bac8\pulsator4droid-1.0.3\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\4eb2fc21ccc2dce4da190845bc3482ac\material-1.5.0\AndroidManifest.xml:17:1-24:12
@@ -64,25 +64,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Musa\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\b33061385d67b982bb885113b832fc1e\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\01df92b7300672a5ff8664dc3764ee51\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\8d11d86b037c681c007c37e744e988c0\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:2:1-37:12
-		INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:2:1-37:12
-		INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:5:5-35:19
+ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:5:5-35:19
 MERGED from [pl.bclogic:pulsator4droid:1.0.3] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\b7d2f2cb826e61f51c0423cb9d36bac8\pulsator4droid-1.0.3\AndroidManifest.xml:11:5-15:19
 MERGED from [pl.bclogic:pulsator4droid:1.0.3] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\b7d2f2cb826e61f51c0423cb9d36bac8\pulsator4droid-1.0.3\AndroidManifest.xml:11:5-15:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\4eb2fc21ccc2dce4da190845bc3482ac\material-1.5.0\AndroidManifest.xml:22:5-20
@@ -116,59 +116,59 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mu
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:11:9-49
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:11:9-49
 activity#ml.androdevs.TagTarget.Activities.MainActivity
-ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:12:9-20:20
 	android:exported
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:13:13-36
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:13:13-36
 	android:theme
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:14:13-53
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:14:13-53
 	android:name
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:12:19-58
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:12:19-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:18:27-74
 activity#ml.androdevs.TagTarget.Activities.TodoNoteActivity
-ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:21:9-27:20
+ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:21:9-27:20
 	android:label
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:24:13-61
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:24:13-61
 	android:exported
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:22:13-36
 	android:theme
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:25:13-72
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:25:13-72
 	android:name
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:23:13-56
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:23:13-56
 receiver#ml.androdevs.TagTarget.Model.AlarmReciever
-ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:29:9-56
+ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:29:9-56
 	android:name
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:29:19-54
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:29:19-54
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:31:9-33:69
+ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:31:9-33:69
 	android:value
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:33:13-67
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:33:13-67
 	android:name
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:32:13-69
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml:32:13-69
 uses-sdk
-INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
-INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\947a71c6d3280253a2aa382ca3d9c53f\viewbinding-4.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\947a71c6d3280253a2aa382ca3d9c53f\viewbinding-4.2.1\AndroidManifest.xml:20:5-44
 MERGED from [pl.bclogic:pulsator4droid:1.0.3] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\b7d2f2cb826e61f51c0423cb9d36bac8\pulsator4droid-1.0.3\AndroidManifest.xml:7:5-9:41
@@ -289,18 +289,18 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Musa\.gradle\caches\transforms
 MERGED from [androidx.print:print:1.0.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\01df92b7300672a5ff8664dc3764ee51\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\8d11d86b037c681c007c37e744e988c0\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\8d11d86b037c681c007c37e744e988c0\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
-INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\0812037ce1fb42b0ad365b1c062c3ea3\play-services-ads-20.2.0\AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
-		INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\TagTarget\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\a40d98ff19d1c0482fe52aeb79546f4e\play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:23:5-67

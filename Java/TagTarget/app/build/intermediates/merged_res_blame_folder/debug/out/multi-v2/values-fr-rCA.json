@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidStudioProjects\\TagTarget20\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "outputFile": "D:\\AndroidStudioProjects\\TagTarget\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Musa\\.gradle\\caches\\transforms-2\\files-2.1\\0812037ce1fb42b0ad365b1c062c3ea3\\play-services-ads-20.2.0\\res\\values-fr-rCA\\values.xml",

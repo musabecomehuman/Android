@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidStudioProjects\\TagTarget20\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
+            "outputFile": "D:\\AndroidStudioProjects\\TagTarget\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Musa\\.gradle\\caches\\transforms-2\\files-2.1\\4eb2fc21ccc2dce4da190845bc3482ac\\material-1.5.0\\res\\values-mr\\values-mr.xml",

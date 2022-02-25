@@ -1,22 +1,22 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\TagTarget20\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recyclerview_item_layout.xml",
-        "source": "D:\\AndroidStudioProjects\\TagTarget20\\app\\src\\main\\res\\layout\\recyclerview_item_layout.xml"
+        "merged": "D:\\AndroidStudioProjects\\TagTarget\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_category_spinner.xml",
+        "source": "D:\\AndroidStudioProjects\\TagTarget\\app\\src\\main\\res\\layout\\row_category_spinner.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\TagTarget20\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_todo_note.xml",
-        "source": "D:\\AndroidStudioProjects\\TagTarget20\\app\\src\\main\\res\\layout\\activity_todo_note.xml"
+        "merged": "D:\\AndroidStudioProjects\\TagTarget\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_todo_note.xml",
+        "source": "D:\\AndroidStudioProjects\\TagTarget\\app\\src\\main\\res\\layout\\activity_todo_note.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\TagTarget20\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "D:\\AndroidStudioProjects\\TagTarget20\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\AndroidStudioProjects\\TagTarget\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_category_dialog.xml",
+        "source": "D:\\AndroidStudioProjects\\TagTarget\\app\\src\\main\\res\\layout\\add_category_dialog.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\TagTarget20\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_category_spinner.xml",
-        "source": "D:\\AndroidStudioProjects\\TagTarget20\\app\\src\\main\\res\\layout\\row_category_spinner.xml"
+        "merged": "D:\\AndroidStudioProjects\\TagTarget\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recyclerview_item_layout.xml",
+        "source": "D:\\AndroidStudioProjects\\TagTarget\\app\\src\\main\\res\\layout\\recyclerview_item_layout.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\TagTarget20\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_category_dialog.xml",
-        "source": "D:\\AndroidStudioProjects\\TagTarget20\\app\\src\\main\\res\\layout\\add_category_dialog.xml"
+        "merged": "D:\\AndroidStudioProjects\\TagTarget\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\AndroidStudioProjects\\TagTarget\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]
