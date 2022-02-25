@@ -1,0 +1,74 @@
+ml/androdevs/TagTarget/databinding/ActivityMainBinding.java
+ ml.androdevs.TagTarget.databinding.ActivityMainBinding
+ml/androdevs/TagTarget/TodoDB/DaoAccess.java
+ ml.androdevs.TagTarget.TodoDB.DaoAccess
+ml/androdevs/TagTarget/TodoDB/DatabaseClient.java
+ ml.androdevs.TagTarget.TodoDB.DatabaseClient
+ml/androdevs/TagTarget/Activities/TodoNoteActivity.java
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$1
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$1$categoryHolder
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$10
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$11
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$12
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$2
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$3
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$4
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$5
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$6
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$7
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$8
+ ml.androdevs.TagTarget.Activities.TodoNoteActivity$9
+ml/androdevs/TagTarget/databinding/ActivityTodoNoteBinding.java
+ ml.androdevs.TagTarget.databinding.ActivityTodoNoteBinding
+ml/androdevs/TagTarget/databinding/AddCategoryDialogBinding.java
+ ml.androdevs.TagTarget.databinding.AddCategoryDialogBinding
+ml/androdevs/TagTarget/databinding/RecyclerviewItemLayoutBinding.java
+ ml.androdevs.TagTarget.databinding.RecyclerviewItemLayoutBinding
+ml/androdevs/TagTarget/Model/Todo.java
+ ml.androdevs.TagTarget.Model.Todo
+ml/androdevs/TagTarget/CategoryDB/DbManager.java
+ ml.androdevs.TagTarget.CategoryDB.DbManager
+ ml.androdevs.TagTarget.CategoryDB.DbManager$1
+ ml.androdevs.TagTarget.CategoryDB.DbManager$DbHelper
+ml/androdevs/TagTarget/CategoryDB/DbSchema.java
+ ml.androdevs.TagTarget.CategoryDB.DbSchema
+ ml.androdevs.TagTarget.CategoryDB.DbSchema$Table_Category
+ml/androdevs/TagTarget/Model/RecyclerViewAdapter.java
+ ml.androdevs.TagTarget.Model.RecyclerViewAdapter
+ ml.androdevs.TagTarget.Model.RecyclerViewAdapter$1
+ ml.androdevs.TagTarget.Model.RecyclerViewAdapter$1GetSavedTasks
+ ml.androdevs.TagTarget.Model.RecyclerViewAdapter$2
+ ml.androdevs.TagTarget.Model.RecyclerViewAdapter$ClickListener
+ ml.androdevs.TagTarget.Model.RecyclerViewAdapter$ViewHolder
+ ml.androdevs.TagTarget.Model.RecyclerViewAdapter$ViewHolder$1
+ml/androdevs/TagTarget/BuildConfig.java
+ ml.androdevs.TagTarget.BuildConfig
+ml/androdevs/TagTarget/databinding/RowCategorySpinnerBinding.java
+ ml.androdevs.TagTarget.databinding.RowCategorySpinnerBinding
+ml/androdevs/TagTarget/TodoDB/MyDatabase.java
+ ml.androdevs.TagTarget.TodoDB.MyDatabase
+ml/androdevs/TagTarget/Model/AlarmReciever.java
+ ml.androdevs.TagTarget.Model.AlarmReciever
+ml/androdevs/TagTarget/Activities/MainActivity.java
+ ml.androdevs.TagTarget.Activities.MainActivity
+ ml.androdevs.TagTarget.Activities.MainActivity$1
+ ml.androdevs.TagTarget.Activities.MainActivity$1$categoryHolder
+ ml.androdevs.TagTarget.Activities.MainActivity$10
+ ml.androdevs.TagTarget.Activities.MainActivity$11
+ ml.androdevs.TagTarget.Activities.MainActivity$12
+ ml.androdevs.TagTarget.Activities.MainActivity$13
+ ml.androdevs.TagTarget.Activities.MainActivity$14
+ ml.androdevs.TagTarget.Activities.MainActivity$2
+ ml.androdevs.TagTarget.Activities.MainActivity$3
+ ml.androdevs.TagTarget.Activities.MainActivity$4
+ ml.androdevs.TagTarget.Activities.MainActivity$5
+ ml.androdevs.TagTarget.Activities.MainActivity$6
+ ml.androdevs.TagTarget.Activities.MainActivity$7
+ ml.androdevs.TagTarget.Activities.MainActivity$8
+ ml.androdevs.TagTarget.Activities.MainActivity$9
+ ml.androdevs.TagTarget.Activities.MainActivity$ClickListener
+ml/androdevs/TagTarget/CategoryDB/Category.java
+ ml.androdevs.TagTarget.CategoryDB.Category
+ml/androdevs/TagTarget/CategoryDB/CategoryDao.java
+ ml.androdevs.TagTarget.CategoryDB.CategoryDao

@@ -1,0 +1,346 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ml.androdevs.TagTarget"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml
+10
+11    <!-- Include required permissions for Google Mobile Ads to run -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:23:5-67
+12-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:23:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Android package visibility setting -->
+13-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:24:5-79
+13-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:24:22-76
+14    <queries>
+14-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:27:5-43:15
+15
+16        <!-- For browser content -->
+17        <intent>
+17-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:30:9-36:18
+18            <action android:name="android.intent.action.VIEW" />
+18-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:31:13-65
+18-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:31:21-62
+19
+20            <category android:name="android.intent.category.BROWSABLE" />
+20-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:33:13-74
+20-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:33:23-71
+21
+22            <data android:scheme="https" />
+22-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:35:13-44
+22-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:35:19-41
+23        </intent>
+24        <!-- End of browser content -->
+25        <!-- For CustomTabsService -->
+26        <intent>
+26-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:39:9-41:18
+27            <action android:name="android.support.customtabs.action.CustomTabsService" />
+27-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:40:13-90
+27-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:40:21-87
+28        </intent>
+29        <!-- End of CustomTabsService -->
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:25:5-68
+32-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:25:22-65
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+33-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:27:5-81
+33-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:27:22-78
+34
+35    <application
+35-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:5:5-35:19
+36        android:allowBackup="true"
+36-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:6:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.5.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:icon="@mipmap/ic_launcher"
+40-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:7:9-43
+41        android:label="@string/app_name"
+41-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:8:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:9:9-54
+43        android:supportsRtl="true"
+43-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:10:9-35
+44        android:testOnly="true"
+45        android:theme="@style/Theme.TagTarget20" >
+45-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:11:9-49
+46        <activity
+46-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:12:9-20:20
+47            android:name="ml.androdevs.TagTarget.Activities.MainActivity"
+47-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:12:19-58
+48            android:exported="true"
+48-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:13:13-36
+49            android:theme="@style/Theme.TagTarget20" >
+49-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:14:13-53
+50            <intent-filter>
+50-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:15:13-19:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:16:17-69
+51-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:16:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:18:17-77
+53-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:18:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:21:9-27:20
+57            android:name="ml.androdevs.TagTarget.Activities.TodoNoteActivity"
+57-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:23:13-56
+58            android:exported="true"
+58-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:22:13-36
+59            android:label="@string/title_activity_todo_note"
+59-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:24:13-61
+60            android:theme="@style/Theme.MaterialComponents.NoActionBar" >
+60-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:25:13-72
+61        </activity>
+62
+63        <receiver android:name="ml.androdevs.TagTarget.Model.AlarmReciever" />
+63-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:29:9-56
+63-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:29:19-54
+64
+65        <meta-data
+65-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:31:9-33:69
+66            android:name="com.google.android.gms.ads.APPLICATION_ID"
+66-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:32:13-69
+67            android:value="ca-app-pub-3940256099942544~3347511713" />
+67-->D:\AndroidStudioProjects\TagTarget20\app\src\main\AndroidManifest.xml:33:13-67
+68
+69        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+70        <activity
+70-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:48:9-52:64
+71            android:name="com.google.android.gms.ads.AdActivity"
+71-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:49:13-65
+72            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+72-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:50:13-122
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:51:13-37
+74            android:theme="@android:style/Theme.Translucent" />
+74-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:52:13-61
+75
+76        <provider
+76-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:54:9-58:39
+77            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+77-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:55:13-76
+78            android:authorities="ml.androdevs.TagTarget.mobileadsinitprovider"
+78-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:56:13-73
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:57:13-37
+80            android:initOrder="100" />
+80-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:58:13-36
+81
+82        <service
+82-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:60:9-63:40
+83            android:name="com.google.android.gms.ads.AdService"
+83-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:61:13-64
+84            android:enabled="true"
+84-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:62:13-35
+85            android:exported="false" />
+85-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7259cebaf1776b839ead41032bb06e6a\play-services-ads-lite-20.2.0\AndroidManifest.xml:63:13-37
+86
+87        <provider
+87-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:30:9-36:35
+88            android:name="androidx.work.impl.WorkManagerInitializer"
+88-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:31:13-69
+89            android:authorities="ml.androdevs.TagTarget.workmanager-init"
+89-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:32:13-68
+90            android:directBootAware="false"
+90-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:33:13-44
+91            android:exported="false"
+91-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:34:13-37
+92            android:multiprocess="true" />
+92-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:35:13-40
+93
+94        <service
+94-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:38:9-43:35
+95            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+95-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:39:13-88
+96            android:directBootAware="false"
+96-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:40:13-44
+97            android:enabled="@bool/enable_system_alarm_service_default"
+97-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:41:13-72
+98            android:exported="false" />
+98-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:42:13-37
+99        <service
+99-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:44:9-50:35
+100            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+100-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:45:13-84
+101            android:directBootAware="false"
+101-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:46:13-44
+102            android:enabled="@bool/enable_system_job_service_default"
+102-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:47:13-70
+103            android:exported="true"
+103-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:48:13-36
+104            android:permission="android.permission.BIND_JOB_SERVICE" />
+104-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:49:13-69
+105
+106        <receiver
+106-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:52:9-57:35
+107            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+107-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:53:13-88
+108            android:directBootAware="false"
+108-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:54:13-44
+109            android:enabled="true"
+109-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:55:13-35
+110            android:exported="false" />
+110-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:56:13-37
+111        <receiver
+111-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:58:9-68:20
+112            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+112-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:59:13-106
+113            android:directBootAware="false"
+113-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:60:13-44
+114            android:enabled="false"
+114-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:61:13-36
+115            android:exported="false" >
+115-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:62:13-37
+116            <intent-filter>
+116-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:64:13-67:29
+117                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+117-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:65:17-87
+117-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:65:25-84
+118                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+118-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:66:17-90
+118-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:66:25-87
+119            </intent-filter>
+120        </receiver>
+121        <receiver
+121-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:69:9-79:20
+122            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+122-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:70:13-104
+123            android:directBootAware="false"
+123-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:71:13-44
+124            android:enabled="false"
+124-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:72:13-36
+125            android:exported="false" >
+125-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:73:13-37
+126            <intent-filter>
+126-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:75:13-78:29
+127                <action android:name="android.intent.action.BATTERY_OKAY" />
+127-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:76:17-77
+127-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:76:25-74
+128                <action android:name="android.intent.action.BATTERY_LOW" />
+128-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:77:17-76
+128-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:77:25-73
+129            </intent-filter>
+130        </receiver>
+131        <receiver
+131-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:80:9-90:20
+132            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+132-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:81:13-104
+133            android:directBootAware="false"
+133-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:82:13-44
+134            android:enabled="false"
+134-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:83:13-36
+135            android:exported="false" >
+135-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:84:13-37
+136            <intent-filter>
+136-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:86:13-89:29
+137                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+137-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:87:17-83
+137-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:87:25-80
+138                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+138-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:88:17-82
+138-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:88:25-79
+139            </intent-filter>
+140        </receiver>
+141        <receiver
+141-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:91:9-100:20
+142            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+142-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:92:13-103
+143            android:directBootAware="false"
+143-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:93:13-44
+144            android:enabled="false"
+144-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:94:13-36
+145            android:exported="false" >
+145-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:95:13-37
+146            <intent-filter>
+146-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:97:13-99:29
+147                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+147-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:98:17-79
+147-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:98:25-76
+148            </intent-filter>
+149        </receiver>
+150        <receiver
+150-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:101:9-112:20
+151            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+151-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:102:13-88
+152            android:directBootAware="false"
+152-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:103:13-44
+153            android:enabled="false"
+153-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:104:13-36
+154            android:exported="false" >
+154-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:105:13-37
+155            <intent-filter>
+155-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:107:13-111:29
+156                <action android:name="android.intent.action.BOOT_COMPLETED" />
+156-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:108:17-79
+156-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:108:25-76
+157                <action android:name="android.intent.action.TIME_SET" />
+157-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:109:17-73
+157-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:109:25-70
+158                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+158-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:110:17-81
+158-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:110:25-78
+159            </intent-filter>
+160        </receiver>
+161        <receiver
+161-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:113:9-122:20
+162            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+162-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:114:13-99
+163            android:directBootAware="false"
+163-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:115:13-44
+164            android:enabled="@bool/enable_system_alarm_service_default"
+164-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:116:13-72
+165            android:exported="false" >
+165-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:117:13-37
+166            <intent-filter>
+166-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:119:13-121:29
+167                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+167-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:120:17-98
+167-->[androidx.work:work-runtime:2.1.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\f68e2cafd1d2809bd827fc0350f2adf9\work-runtime-2.1.0\AndroidManifest.xml:120:25-95
+168            </intent-filter>
+169        </receiver>
+170
+171        <service
+171-->[androidx.room:room-runtime:2.2.5] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7cdeb1d41cb3439f6c770ab9c6dbd234\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+172            android:name="androidx.room.MultiInstanceInvalidationService"
+172-->[androidx.room:room-runtime:2.2.5] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7cdeb1d41cb3439f6c770ab9c6dbd234\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+173            android:directBootAware="true"
+173-->[androidx.room:room-runtime:2.2.5] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7cdeb1d41cb3439f6c770ab9c6dbd234\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+174            android:exported="false" />
+174-->[androidx.room:room-runtime:2.2.5] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\7cdeb1d41cb3439f6c770ab9c6dbd234\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+175
+176        <meta-data
+176-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\02a090c39961ad197f3039c395204cca\play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+177            android:name="com.google.android.gms.version"
+177-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\02a090c39961ad197f3039c395204cca\play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+178            android:value="@integer/google_play_services_version" />
+178-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\02a090c39961ad197f3039c395204cca\play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+179
+180        <provider
+180-->[androidx.lifecycle:lifecycle-process:2.5.0-alpha02] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\1d5ab8c37a1d122de6ff02267b515d7e\lifecycle-process-2.5.0-alpha02\AndroidManifest.xml:26:9-34:20
+181            android:name="androidx.startup.InitializationProvider"
+181-->[androidx.lifecycle:lifecycle-process:2.5.0-alpha02] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\1d5ab8c37a1d122de6ff02267b515d7e\lifecycle-process-2.5.0-alpha02\AndroidManifest.xml:27:13-67
+182            android:authorities="ml.androdevs.TagTarget.androidx-startup"
+182-->[androidx.lifecycle:lifecycle-process:2.5.0-alpha02] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\1d5ab8c37a1d122de6ff02267b515d7e\lifecycle-process-2.5.0-alpha02\AndroidManifest.xml:28:13-68
+183            android:exported="false" >
+183-->[androidx.lifecycle:lifecycle-process:2.5.0-alpha02] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\1d5ab8c37a1d122de6ff02267b515d7e\lifecycle-process-2.5.0-alpha02\AndroidManifest.xml:29:13-37
+184            <meta-data
+184-->[androidx.lifecycle:lifecycle-process:2.5.0-alpha02] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\1d5ab8c37a1d122de6ff02267b515d7e\lifecycle-process-2.5.0-alpha02\AndroidManifest.xml:31:13-33:52
+185                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+185-->[androidx.lifecycle:lifecycle-process:2.5.0-alpha02] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\1d5ab8c37a1d122de6ff02267b515d7e\lifecycle-process-2.5.0-alpha02\AndroidManifest.xml:32:17-78
+186                android:value="androidx.startup" />
+186-->[androidx.lifecycle:lifecycle-process:2.5.0-alpha02] C:\Users\Musa\.gradle\caches\transforms-2\files-2.1\1d5ab8c37a1d122de6ff02267b515d7e\lifecycle-process-2.5.0-alpha02\AndroidManifest.xml:33:17-49
+187        </provider>
+188    </application>
+189
+190</manifest>
